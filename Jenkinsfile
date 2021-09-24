@@ -1,20 +1,30 @@
 pipeline {
     agent any
+    environment {
+       dotnet = '"C:\\Program Files\\dotnet\\dotnet.exe"'
+    }
+
 
     stages {
         stage('Build') {
             steps {
-                echo 'Pawel'
+                 bat "${dotnet} build"
             }
         }
         stage('Test') {
             steps {
-                echo 'Jest..'
+                dir("test"){
+                    bat "${dotnet} test"
+                   }
+
             }
         }
         stage('Clean') {
             steps {
-                echo 'Super....'
+                bat "${dotnet} clean"
+                dir("test"){
+                    bat "${dotnet} clean"
+                   }
             }
         }
     }
