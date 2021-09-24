@@ -19,12 +19,22 @@ pipeline {
 
             }
         }
+         stage('Run') {
+            steps {
+                 bat "${dotnet} run"
+            }
+        }
         stage('Clean') {
             steps {
                 bat "${dotnet} clean"
                 dir("test"){
                     bat "${dotnet} clean"
                    }
+            }
+        }
+         stage('Deploy') {
+            steps {
+                 echo 'deploying to the env...'
             }
         }
     }
