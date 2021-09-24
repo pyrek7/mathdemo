@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\MathSolution\\MathSolution.csproj": {}
+    "C:\\Users\\Student\\Desktop\\MathSolution\\test\\test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\MathSolution\\MathSolution.csproj": {
+    "C:\\Users\\Student\\Desktop\\MathSolution\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\MathSolution\\MathSolution.csproj",
-        "projectName": "MathSolution",
-        "projectPath": "C:\\Users\\Student\\Desktop\\MathSolution\\MathSolution.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\MathSolution\\test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "C:\\Users\\Student\\Desktop\\MathSolution\\test\\test.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\MathSolution\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\MathSolution\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,9 +36,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
             }
           },
           "imports": [
