@@ -1,0 +1,13 @@
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.exe
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.deps.json
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.runtimeconfig.json
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.runtimeconfig.dev.json
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.dll
+C:\Users\Student\Desktop\MathSolution\bin\Debug\netcoreapp3.1\MathSolution.pdb
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.AssemblyInfo.cs
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.dll
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.pdb
+C:\Users\Student\Desktop\MathSolution\obj\Debug\netcoreapp3.1\MathSolution.genruntimeconfig.cache
